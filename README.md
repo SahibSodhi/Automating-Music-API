@@ -31,25 +31,3 @@ A simple script that takes your liked videos on Youtube, and generates a Spotify
 `python3 create_playlist.py`   
     * you'll immediately see `Please visit this URL to authorize this application: <some long url>`
     * click on it and log into your Google Account to collect the `authorization code`
-
-
-## ToDo
-* Tests
-* Add Error Handling
-
-## Links
-* Spotify Oauth token expires very quickly, If you come across a `KeyError` this could
-be caused by an expired token. So just refer back to step 3 in local setup, and generate a new
-token!  
-
-
-   [Youtube Data API v3]: <https://developers.google.com/youtube/v3>
-   [Spotify Web API]: <https://developer.spotify.com/documentation/web-api/>
-   [Requests Library v 2.22.0]: <https://requests.readthedocs.io/en/master/>
-   [Account Overview]: <https://www.spotify.com/us/account/overview/>
-   [Get Oauth]: <https://developer.spotify.com/console/post-playlists/>
-   [Set Up Youtube Oauth]: <https://developers.google.com/youtube/v3/getting-started/>
-   [Oauth Setup 2]:<https://stackoverflow.com/questions/11485271/google-oauth-2-authorization-error-redirect-uri-mismatch/>
-   [Youtube Video]:<https://www.youtube.com/watch?v=7J_qcttfnJA/>
-   [Youtube_dl v 2020.01.24]:<https://github.com/ytdl-org/youtube-dl/>
-   [Oauth Setup 3]:<https://github.com/googleapis/google-api-python-client/blob/master/docs/client-secrets.md/>
